@@ -48,3 +48,4 @@ jobs:
         force_orphan: true
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./build
+        cname: wedding.berviantoleo.my.id
