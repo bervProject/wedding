@@ -24,5 +24,27 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'yarn'
     - run: yarn --frozen-lockfile
-    - run: yarn build
     - run: yarn test
+    - run: yarn build
+      env:
+        MAP_API_KEY: ${{ secrets.MAP_API_KEY }}
+    - uses: actions/upload-artifact@v4
+      if: ${{ github.event_name == 'push' && matrix.node-version == '20.x' }}
+      with:
+        name: deployment
+        path: build/*
+  publish:
+    runs-on: ubuntu-latest
+    needs: build
+    if: ${{ github.event_name == 'push' }}
+    steps:
+    - uses: actions/download-artifact@v4
+      with:
+        name: deployment
+        path: ./build
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        force_orphan: true
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build
