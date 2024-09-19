@@ -1,0 +1,17 @@
+#couple-name {
+    background-image: url("../images/bervi-meti-1.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#couple-name .title {
+    font-size: 75px;
+    font-family: 'Rancho';
+    color: white;
+}
+
+#couple-name .subtitle {
+    color: white;
+    font-size: 24px;
+}

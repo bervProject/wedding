@@ -1,0 +1,18 @@
+#verse {
+    background-image: url("../images/verse-background.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#verse .title {
+    color: black;
+}
+
+#verse .subtitle {
+    color: black;
+}
+
+#verse strong {
+    color: black;
+}
