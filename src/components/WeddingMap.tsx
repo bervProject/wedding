@@ -27,7 +27,7 @@ export default function WeddingMap()
             </div>
             <p className="subtitle">Gereja Sidang Jemaat Kristus</p>
             <p>JL. Katapang No.11, Malabar, Kec. Lengkong, Kota Bandung, Jawa Barat 40262</p>
-            <APIProvider apiKey={process.env.MAP_API_KEY ?? ''}>
+            <APIProvider apiKey={process.env.REACT_APP_MAP_API_KEY ?? ''}>
               <Map
                 style={{ width: '100%', height: '80vh', margin: '10px' }}
                 defaultCenter={{ lat: -6.921856880187988, lng: 107.61971282958984 }}

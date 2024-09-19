@@ -27,7 +27,7 @@ jobs:
     - run: yarn test
     - run: yarn build
       env:
-        MAP_API_KEY: ${{ secrets.MAP_API_KEY }}
+        REACT_APP_MAP_API_KEY: ${{ secrets.MAP_API_KEY }}
     - uses: actions/upload-artifact@v4
       if: ${{ github.event_name == 'push' && matrix.node-version == '20.x' }}
       with:
