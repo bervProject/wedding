@@ -1,5 +1,4 @@
 import { APIProvider, AdvancedMarker, Map } from '@vis.gl/react-google-maps';
-import Timer from './Timer';
 
 export default function WeddingMap()
 {
