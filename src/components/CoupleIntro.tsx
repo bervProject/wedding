@@ -20,7 +20,7 @@ export default function CoupleIntro() {
                                 Meti Habsari
                             </p>
                             <p>Putri bungsu dari</p>
-                            <p>... & ... </p>
+                            <p>Sulihing Sungkowo ({"\u271D"}) & Sri Hartati ({"\u271D"})</p>
                         </div>
                     </div>
                 </div>

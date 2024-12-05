@@ -5,7 +5,7 @@ import Verse from './components/Verse';
 import CoupleIntro from './components/CoupleIntro';
 import WeddingMap from './components/WeddingMap';
 import Message from './components/Message';
-
+import DateDetails from './components/DateDetails';
 
 function App() {
   return (
@@ -20,8 +20,10 @@ function App() {
       {/* Bible Verse */}
       <Verse />
       {/* Couple Name & Little Introduction */}
-      {process.env.NODE_ENV === 'production' ? null : <CoupleIntro /> } 
+      <CoupleIntro />
       {/* Wedding Venue & Date/Time */}
+      <DateDetails />
+      {/* Wedding Map */}
       <WeddingMap />
       {/* RSVP/Message */}
       {process.env.NODE_ENV === 'production' ? null : <Message /> } 
