@@ -6,6 +6,7 @@ import CoupleIntro from './components/CoupleIntro';
 import WeddingMap from './components/WeddingMap';
 import Message from './components/Message';
 import DateDetails from './components/DateDetails';
+import ReceiveMessage from './components/ReceiveMessage';
 
 function App() {
   return (
@@ -25,8 +26,11 @@ function App() {
       <DateDetails />
       {/* Wedding Map */}
       <WeddingMap />
-      {/* RSVP/Message */}
-      {process.env.NODE_ENV === 'production' ? null : <Message /> } 
+      {/* RSVP/Send Message */}
+      <Message />
+      {/* Message List */}
+      <ReceiveMessage />
+      {/* Footer */}
       <Footer />
     </div>
   );
