@@ -2348,10 +2348,10 @@
   resolved "https://registry.yarnpkg.com/@ungap/structured-clone/-/structured-clone-1.2.0.tgz#756641adb587851b5ccb3e095daf27ae581c8406"
   integrity sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==
 
-"@vis.gl/react-google-maps@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@vis.gl/react-google-maps/-/react-google-maps-1.1.1.tgz#f5af1c3128601e9d77f335198bab416297c0bc6d"
-  integrity sha512-1iKLZVMINd1AIQ65QzpsooflgeM9s/K/D6iLgqz5NA6KEc0YSEBuMuGfsK+FubCqu/Y+KtEGrq8CzP0OFFVfQg==
+"@vis.gl/react-google-maps@^1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@vis.gl/react-google-maps/-/react-google-maps-1.5.2.tgz#8ecc74b8c1aa6ccffd62d235513da7337f376a08"
+  integrity sha512-0Ypmde7M73GgV4TgcaUTNKXsbcXWToPVuawMNrVg7htXmhpEfLARHwhtmP6N1da3od195ZKC8ShXzC6Vm+zYHQ==
   dependencies:
     "@types/google.maps" "^3.54.10"
     fast-deep-equal "^3.1.3"
