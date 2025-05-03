@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9936230a.css",
+    "main.js": "/static/js/main.c1fe5e32.js",
+    "static/js/488.646c7205.chunk.js": "/static/js/488.646c7205.chunk.js",
+    "static/media/bervi-meti-1.jpg": "/static/media/bervi-meti-1.9da19218f8bc95b7019f.jpg",
+    "static/media/verse-background.jpg": "/static/media/verse-background.9830c3516a2c27887e2a.jpg",
+    "index.html": "/index.html",
+    "main.9936230a.css.map": "/static/css/main.9936230a.css.map",
+    "main.c1fe5e32.js.map": "/static/js/main.c1fe5e32.js.map",
+    "488.646c7205.chunk.js.map": "/static/js/488.646c7205.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9936230a.css",
+    "static/js/main.c1fe5e32.js"
+  ]
+}
