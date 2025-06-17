@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [20.x, 22.x]
+        node-version: [22.x, 24.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
     - uses: actions/checkout@v4
@@ -29,7 +29,7 @@ jobs:
       env:
         REACT_APP_MAP_API_KEY: ${{ secrets.MAP_API_KEY }}
     - uses: actions/upload-artifact@v4
-      if: ${{ github.event_name == 'push' && matrix.node-version == '20.x' }}
+      if: ${{ github.event_name == 'push' && matrix.node-version == '22.x' }}
       with:
         name: deployment
         path: build/*
